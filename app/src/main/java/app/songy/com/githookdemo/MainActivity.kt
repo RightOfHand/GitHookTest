@@ -12,8 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         tv_text.text="git hook"
-        
-
         tv_text.setOnClickListener {
             Toast.makeText(this,"git hook",Toast.LENGTH_LONG).show()
         }
